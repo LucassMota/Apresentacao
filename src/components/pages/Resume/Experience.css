@@ -1,0 +1,120 @@
+.about_hobbies {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.74);
+}
+
+.about_hobbies h1 {
+  padding: 5rem;
+}
+
+.job_description-container {
+  display: flex;
+}
+
+.job_description-container p {
+  text-align: justify;
+  font-size: clamp(10px, 1vw, 25px);
+  margin-left: 250px;
+}
+
+.job-illustration {
+  height: 350px;
+  width: 350px;
+  margin-left: 100px;
+  margin-right: 250px;
+}
+
+.nerd_description-container {
+  display: flex;
+}
+
+.nerd_illustration {
+  height: 300px;
+  width: 300px;
+  margin-left: 250px;
+  margin-right: 100px;
+}
+
+.nerd_knowledge {
+  padding: 5rem;
+  margin-top: -85px;
+}
+
+.nerd_knowledge h1 {
+  padding: 5rem;
+  margin-bottom: 50px;
+}
+
+.nerd_list {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.nerd_list_details {
+  font-size: clamp(15px, 1vw, 25px);
+}
+
+.soft_skills_container {
+  margin-left: 650px;
+  display: flex;
+}
+
+.soft_skills_detail {
+  font-size: clamp(15px, 1vw, 25px);
+}
+
+.softSkils_illustration {
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 2020px) {
+  .job_description-container p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .job-illustration {
+    margin-right: 50px;
+  }
+
+  .softSkils_illustration,
+  .nerd_illustration {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1076px) {
+  .job-illustration {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .soft_skills_container {
+    margin-left: 30px;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 259px) {
+  .nerd_knowledge {
+    font-size: 20px;
+  }
+  .nerd_description-container {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 179px) {
+  .nerd_list_details,
+  .soft_skills_detail {
+    font-size: 10px;
+  }
+  .nerd_knowledge {
+    font-size: 12px;
+  }
+}
