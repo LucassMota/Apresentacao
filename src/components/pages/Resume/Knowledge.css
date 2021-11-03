@@ -1,0 +1,28 @@
+.about_hobbies {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.74);
+}
+
+.about_hobbies h1 {
+  padding: 5rem;
+}
+
+.nerd_description-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  font-size: clamp(35px, 1vw, 25px);
+}
+
+@media only screen and (max-height: 750px) {
+  .nerd_knowledge,
+  .nerd_description-container {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-height: 570px) {
+  .nerd_knowledge,
+  .nerd_description-container {
+    font-size: 20px;
+  }
+}
